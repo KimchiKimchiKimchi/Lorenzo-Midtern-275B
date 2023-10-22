@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Jim's Tennis Balls</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<head>
+    <title>Contact Us - Jim's Tennis Balls</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Jim's Tennis Balls</h1>
+    </header>
+
+    <nav>
+        <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                   <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+     
+
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, requests, or feedback, please use the contact form below to reach out to us. We'll respond as soon as possible!</p>
+            <form action="contact-form-handler.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023 Jim's Tennis Balls
+    </footer>
+</body>
+</html>
